@@ -1,7 +1,8 @@
 class UsersController < ApplicationController
     def show
             user = User.find_by(id: session[:user_id])
-        if user
+            byebug
+        if user.password == params[:password]
             render json: user
         else
             render json: { error: "Not authorized" }, status: :unauthorized

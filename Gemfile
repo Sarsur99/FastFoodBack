@@ -69,3 +69,5 @@ gem 'fast_jsonapi'
 gem "webpacker", "~> 4.x"
 
 gem 'byebug'
+
+gem 'rack-cors', :require => 'rack/cors'
