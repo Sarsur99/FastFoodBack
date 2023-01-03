@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'pages#index'
+  # root 'pages#index'
 
   namespace :api do
     namespace :v1 do
@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   post "/register", to: "users#create"
   get "/me", to: "users#show"
   delete "/logout", to: "sessions#destroy"
+  # get '/restaurants/:slug', to: 'restaurants#show', as: 'restaurant'
 
 end

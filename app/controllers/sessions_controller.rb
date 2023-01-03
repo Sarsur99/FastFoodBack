@@ -10,4 +10,10 @@ class SessionsController < ApplicationController
         session[:user_id] = user.id
         render json: user
     end
+
+    def destroy
+        session[:user_id] = nil
+        render json: { status: "Session destroyed!" }
+    end
+
 end

@@ -18,7 +18,7 @@ module Api
 
                 render json: RestaurantSerializer.new(restaurant, options).serialized_json
             end
-
+            
             def create 
                 restaurant = Restaurant.new(restaurant_params)
 
@@ -52,7 +52,7 @@ module Api
             private
 
             def restaurant_params
-                params.require(:restaurant).permit(:name, :image)
+                params.require(:restaurant).permit(:name, :image, :slug)
             end
 
             def options
