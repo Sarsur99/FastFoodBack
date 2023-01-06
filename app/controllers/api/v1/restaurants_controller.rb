@@ -35,7 +35,7 @@ module Api
                 if restaurant.update(restaurant_params)
                     render json: RestaurantSerializer.new(restaurant, options).serialized_json
                 else
-                    render json: {error: airline.errors.messages}, status: 422
+                    render json: {error: restaurant.errors.messages}, status: 422
                 end
             end
 

@@ -13,7 +13,7 @@ module Api
             end
 
             def destroy
-                review = Review.find(params[:id])
+                review = Review.find_by(params[:id])
                 if review.destroy
                     head :no_content
                 else
