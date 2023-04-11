@@ -17,7 +17,7 @@ restaurants = Restaurant.create([
     },
     {
         name: "Taco Bell",
-        image: "https://static.wikia.nocookie.net/logopedia/images/4/45/Taco_Bell.svg/revision/latest?cb=20200112222740"
+        image: "https://cdn.worldvectorlogo.com/logos/taco-bell-5.svg"
     },
     {
         name: "Chic-fil-a",
