@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :restaurants, param: :slug
+      delete '/restaurants/:id', to: 'restaurants#destroy'
       resources :reviews, only: [:create, :destroy]
     end
   end
