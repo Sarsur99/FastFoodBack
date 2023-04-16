@@ -40,7 +40,7 @@ module Api
             end
 
             def destroy
-                restaurant = Restaurant.find(params[:id])
+                restaurant = Restaurant.find_by(slug: params[:slug])
 
                 if restaurant.destroy
                     head :no_content
