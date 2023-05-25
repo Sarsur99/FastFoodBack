@@ -11,7 +11,3 @@ This is the Backend code for "FastFoodies Reviews" App which is constructed usin
 - Full CRUD functionality
 
 
-## Appendix
-
-Any additional information goes here
-
