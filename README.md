@@ -1,29 +1,17 @@
-<<<<<<< HEAD
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# FastFoodies Backend
 
-Things you may want to cover:
+A brief description of what this project does and who it's for
 
-* Ruby version
+This is the Backend code for "FastFoodies Reviews" App which is constructed using custom Ruby on Rails methods.
+## Features
 
-* System dependencies
+- Encrypted User login via Bcrypt
+- Average Star rating 
+- Full CRUD functionality
 
-* Configuration
 
-* Database creation
+## Appendix
 
-* Database initialization
+Any additional information goes here
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# FastFoodFront
-react front end for fast food project
->>>>>>> 998d981ba47ad34483d7f52d55d0f1dd184d6518
